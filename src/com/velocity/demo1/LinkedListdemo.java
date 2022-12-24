@@ -13,6 +13,8 @@ public class LinkedListdemo {
 		 list.add(2);
 		 list.add(3);
 		 
-		 System.out.println(list);
+		for(int a:list) {
+			System.out.println(a);
+		}
 	}
 }
