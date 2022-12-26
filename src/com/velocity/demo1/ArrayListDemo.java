@@ -10,6 +10,7 @@ public class ArrayListDemo {
 		list.add("bunny");
 		list.add("pranav");
 		list.add("shubham");
-		System.out.println(list);
+		
+		list.stream().forEach(x->System.out.println(x));
 	}
 }

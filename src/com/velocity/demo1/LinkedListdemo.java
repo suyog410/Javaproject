@@ -13,8 +13,6 @@ public class LinkedListdemo {
 		 list.add(2);
 		 list.add(3);
 		 
-		for(int a:list) {
-			System.out.println(a);
-		}
+		list.stream().forEach(x->System.out.println(x));
 	}
 }
